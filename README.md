@@ -12,12 +12,27 @@ Foi realizado um teste do código utilizando a IDE IntelliJ. Ao tentar rodar o p
 
 3. Postman
 
+### Abordagem de teste
+
+Ao temtar rodar código no inteliji, o erro de conexão com banco de dados foi evidenciado.
 
 
-url: cleberleao.com
-usuario: cleberleao_oficina
-senha: mysql123oficina
-nome da instancia: cleberleao_oficina
 
-### testando commit
-1. teste
+Foi realizado um teste de caixa branca para verificar o código que foi programado, identificar erros, realizar testes unitários e testar as funções. O teste foi focado nas funções no contexto das classes do código. Neste caso, foi feita uma verificação direta no application.properties, onde se encontram as configurações de conexão com o banco de dados, e foi identificada uma inconformidade.
+
+Ao temtar rodar código no inteliji, o erro de conexão com banco de dados foi evidenciado.
+
+Além disso, foi realizado um teste de caixa preta com a utilização do Postman, uma ferramenta que permite testar requisições HTTP de forma prática e visual, sendo muito utilizada para validar endpoints de APIs e simular o comportamento do usuário final sem acesso direto ao código-fonte.
+
+Abrir o projeto na IDE IntelliJ.
+
+Garantir que o JDK 11 esteja configurado corretamente.
+
+Executar o projeto utilizando o modo Debug do IntelliJ.
+
+Monitorar os logs para identificar falhas de conexão.
+
+Utilizar o DBeaver para validar as credenciais e a URL de conexão com o banco.
+
+Usar o Postman para testar os endpoints da aplicação (caso o projeto envolva APIs).
+
