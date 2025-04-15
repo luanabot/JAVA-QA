@@ -1,9 +1,18 @@
 # Plano de teste
 
-Readme com o plano de teste de caixa preta e testes unitários incluídos no código. Até 15/04/2025 as 19:00h
+### Introdução
 
-Resumo: foi realizado teste do código utilizando inteliji. ao tentar rodar o código, ele apresentou erro de conecção com o banco de dados. 
-O teste unitario foi utilizado focando na parte de "aplication.propreties", onde se encontrava o requisito para essa conexão, o mesmo não era compativel com a url do banco de dados utilizado no projeto.
+Foi realizado um teste do código utilizando a IDE IntelliJ. Ao tentar rodar o projeto, foi identificado um erro de conexão com o banco de dados. O teste unitário focou principalmente no arquivo application.properties, onde estavam definidos os parâmetros necessários para essa conexão. Constatou-se que a URL configurada no arquivo não era compatível com a URL do banco de dados utilizado no projeto.
+
+### Ambiente de teste
+
+1. IntelliJ IDEA (utilizando o JDK versão 11)
+
+2. Dbeaver
+
+3. Postman
+
+
 
 url: cleberleao.com
 usuario: cleberleao_oficina
