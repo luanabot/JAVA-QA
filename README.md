@@ -36,7 +36,7 @@ Utilizar o DBeaver para validar as credenciais e a URL de conexão com o banco.
 
 Usar o Postman para testar os endpoints da aplicação (caso o projeto envolva APIs).
 
-##Conclusão
+## Conclusão
 
 O erro identificado foi solucionado por meio da correção dos parâmetros de conexão, permitindo que o sistema voltasse a rodar corretamente e os cadastros fossem realizados com sucesso. A abordagem de teste unitário foi eficaz para detectar falhas no código, enquanto o teste de caixa preta, realizado com o Postman, complementou a validação ao simular o comportamento do cliente. Com isso, foi possível garantir um bom funcionamento do sistema, entregando um resultado satisfatório.
 
