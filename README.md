@@ -14,7 +14,7 @@ Foi realizado um teste do código utilizando a IDE IntelliJ. Ao tentar rodar o p
 
 ## Abordagem de teste
 
-Ao temtar rodar código no inteliji, o erro de conexão com banco de dados foi evidenciado.
+Ao tentar rodar código no inteliji, o erro de conexão com banco de dados foi evidenciado.
 
 ![image](https://github.com/user-attachments/assets/f1a9efd3-1d45-4cd1-ae14-5a237392c7dd)
 
